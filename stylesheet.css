@@ -16,7 +16,7 @@
   }
   
   .container {
-    max-width: 1170px;
+    max-width: 1920px;
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
@@ -89,8 +89,8 @@
   }
   
   .logo {
-    width: 124px;
-    margin-top: 20px;
+    width: 190px;
+    margin-top: -14px;
   }
   
   .header-left {
@@ -126,7 +126,7 @@
   }
   
   
-  .lesson-wrapper {
+  .main-wrapper {
     padding-bottom: 80px;
     padding-left: 5%;
     padding-right: 5%;
@@ -173,7 +173,6 @@
   }
   
   .message-wrapper {
-    border-bottom: 1px solid #eee;
     padding-bottom: 80px;
     text-align: center;
   }
@@ -191,7 +190,7 @@
   }
   
   footer img {
-    width: 125px;
+    width: 50px;
   }
   
   footer p {
@@ -200,6 +199,7 @@
   }
   
   footer {
+    border-top: 1px solid #eee;
     padding-top: 30px;
     padding-bottom: 20px;
   }
