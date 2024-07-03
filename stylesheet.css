@@ -53,8 +53,8 @@
     background-color: #239b76;
   }
   
-  .facebook {
-    background-color: #3b5998;
+  .instagram {
+    background:linear-gradient(#4C64D3,#CF2E92,#F26939,#FFDD83);
     margin-right: 10px;
   }
   
@@ -88,7 +88,7 @@
     z-index: 10;
   }
   
-  .logo {
+  .Logo {
     width: 190px;
     margin-top: -14px;
   }
@@ -189,8 +189,9 @@
     box-shadow: none;
   }
   
-  footer img {
-    width: 50px;
+  .logo{
+    width: 190px;
+    margin-top:0%;
   }
   
   footer p {
