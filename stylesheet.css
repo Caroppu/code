@@ -14,7 +14,7 @@
   .clear {
     clear: left;
   }
-  
+
   .container {
     max-width: 1920px;
     width: 100%;
@@ -23,9 +23,9 @@
   }
   
   .top-wrapper {
-    padding: 180px 0 100px 0;
-    background-image: url(https://prog-8.com/images/html/advanced/top.png);
-    background-size: cover;
+    padding: 250px 0 250px 0;
+    background-image: url(background.jpg);
+    background-size:cover;
     color: white;
     text-align: center;
   }
@@ -350,4 +350,12 @@
       width: 160px;
       font-size: 16px;
     }
+  }
+
+  .introduction h1{
+    padding-top:70px;
+  }
+
+  .event h1{
+    padding-top:70px;
   }
