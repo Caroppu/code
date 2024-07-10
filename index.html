@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="contact" href="contact.html">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+      <script type="text/javascript">
+           $(document).ready(function(){
+               $('.slider').bxSlider({
+                  auto: true,
+                  pause: 5000, // 画像がスライドするスピード
+                  slideWidth: 500, // 画像の横幅
+                });
+              });
+      </script>
   </head>
   <body>
     <header>
@@ -60,23 +72,32 @@
     <div class="main-wrapper">
       <div class="container">
         <div class="heading">
+          
           <h2>開催中のイベント</h2>
         </div>
           <div class="clear"></div>
+          
       </div>
+      <div class="slideshow-container">
+      <div class="slider">
+        <img src="logo.jpg" alt="">
+        <img src="logoB.PNG" alt="">
+        </div>
+        </div>
     </div>
+    
     <div class="message-wrapper">
       <div class="container">
         <div class="heading">
-          <h2>なんか</h2>
-          <h3>なんか</h3>
+          <h2>お知らせ</h2>
+          <h3>HP開設しました</h3>
         </div>
       </div>
     </div>
     <div class="btn-wrapper">
       <h2>SNS関連情報</h2>
-      <a href="#" class="btn instagram"><span class="fa fa-instagram"></span>instagram</a>
-      <a href="#" class="btn x"><span class="fa fa-x"></span>X</a>
+      <a href="https://www.instagram.com/anctesportslab/?hl=ja" class="btn instagram"><span class="fa fa-instagram"></span>instagram</a>
+      <a href="https://x.com/anctesportslab" class="btn x"><span class="fa fa-x"></span>X</a>
     </div>
 
     <footer>
